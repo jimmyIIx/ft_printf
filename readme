@@ -1,0 +1,19 @@
+# FT_PRINTF
+
+Réimplémentation de la fonction libc printf en C. Convertit, formate et affiche les données selon une chaîne de format.
+
+## Format specifiers supportés
+- `%c` - Affiche un caractère
+- `%s` - Affiche une chaîne de caractères
+- `%p` - Affiche un pointeur en hexadécimal
+- `%d` / `%i` - Affiche un entier signé
+- `%u` - Affiche un entier non signé
+- `%x` - Affiche un entier en hexadécimal minuscule
+- `%X` - Affiche un entier en hexadécimal majuscule
+- `%%` - Affiche un caractère %
+
+## Fonctionnalités
+- Gestion des flags de formatage (-, 0, .precision, width)
+- Conversion de différents types de données
+- Support des pointeurs et valeurs NULL
+- Retour du nombre de caractères affichés
